@@ -9,7 +9,7 @@ class Triangle
   
   
   def kind()
-  if @n1 && @n2 == @n3
+  if @n1 & @n2 == @n3
     :equilateral
   elsif (@n1 == @n2) || (@n3 != @n2) || (@n3 != @n1) 
     :isosceles
