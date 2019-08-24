@@ -16,7 +16,18 @@ class Triangle
   
   
   def kind
-    
+    :equilateral
+    :isosceles
+    :scalene
   end
   
+end
+
+def kind(n1,n2,n3)
+  if n1 == n2 ==n3
+    puts :equilateral
+  elsif n1 == n2, n3 != n2, n3 !=n1 
+    puts :isosceles
+  else n1 != n2, n2 != n3, n1 != n3 
+ end
 end
