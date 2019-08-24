@@ -25,7 +25,7 @@ class Triangle
   end 
   
   class TriangleError < StandardError
-  
+  "Dummy wrong number"
   end
 
 end
