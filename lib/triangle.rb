@@ -10,11 +10,11 @@ class Triangle
   
   def kind()
   if @n1 && @n2 == @n3
-    puts :equilateral
+    :equilateral
   elsif (@n1 == @n2) || (@n3 != @n2) || (@n3 != @n1) 
-    puts :isosceles
+    :isosceles
   else (@n1 != @n2) && (@n2 != @n3) && (@n1 != @n3) 
-    puts :scalene
+    :scalene
   end
 end
   
